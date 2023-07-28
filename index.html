@@ -50,7 +50,7 @@
                 </div>
               </div>
         </nav>
-        <div class="carousel w-[400px]   lg:h-[500px] lg:w-[1000px] ml-[100px] relative  ">
+        <div class="carousel w-[400px]   lg:h-[500px] lg:w-[1000px] ml-[100px] mt-12 relative  ">
           <div id="slide1" class="carousel-item relative w-full" style="background-image: url('banner1.png'); background-repeat: no-repeat;  ">
             <div class="flex flex-col items-center lg:flex-row h-[500px]">
               <div class="mt-24 lg:mt-0 ">
@@ -189,7 +189,21 @@
               <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
               <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
             </div>
-            <a href="" class="text-orange-500	">Details</a>
+            <div class="drawer">
+              <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+              <div class="drawer-content">
+                <!-- Page content here -->
+                <label for="my-drawer" class="btn btn-primary drawer-button">Details</label>
+              </div> 
+              <div class="drawer-side">
+                <label for="my-drawer" class="drawer-overlay"></label>
+                <ul class="menu p-4 w-80 h-[200px] bg-base-200 text-base-content">
+                  <!-- Sidebar content here -->
+                  <p>Niloy</p>
+                  
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card w-96 bg-base-100 shadow-xl mt-4">
